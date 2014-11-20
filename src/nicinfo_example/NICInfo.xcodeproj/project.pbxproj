@@ -1,0 +1,339 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		AC1C6FDF147748A700F9799F /* Icon-iPad.png in Resources */ = {isa = PBXBuildFile; fileRef = AC1C6FDB147748A700F9799F /* Icon-iPad.png */; };
+		AC1C6FE0147748A700F9799F /* Icon.png in Resources */ = {isa = PBXBuildFile; fileRef = AC1C6FDC147748A700F9799F /* Icon.png */; };
+		AC1C6FE1147748A700F9799F /* Icon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = AC1C6FDD147748A700F9799F /* Icon@2x.png */; };
+		AC1C6FE2147748A700F9799F /* iTunesArtwork in Resources */ = {isa = PBXBuildFile; fileRef = AC1C6FDE147748A700F9799F /* iTunesArtwork */; };
+		AC1C6FE9147748BD00F9799F /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AC1C6FE7147748BD00F9799F /* ViewController.m */; };
+		AC1C6FF21477498400F9799F /* ViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = AC1C6FF01477498400F9799F /* ViewController.xib */; };
+		AC8EF3CF188A099900240288 /* NICInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = AC8EF3CC188A099900240288 /* NICInfo.m */; };
+		AC8EF3D0188A099900240288 /* NICInfoSummary.m in Sources */ = {isa = PBXBuildFile; fileRef = AC8EF3CE188A099900240288 /* NICInfoSummary.m */; };
+		ACDED36A1477485F00739830 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ACDED3691477485F00739830 /* UIKit.framework */; };
+		ACDED36C1477485F00739830 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ACDED36B1477485F00739830 /* Foundation.framework */; };
+		ACDED36E1477485F00739830 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ACDED36D1477485F00739830 /* CoreGraphics.framework */; };
+		ACDED3741477485F00739830 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = ACDED3721477485F00739830 /* InfoPlist.strings */; };
+		ACDED3761477485F00739830 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = ACDED3751477485F00739830 /* main.m */; };
+		ACDED37A1477485F00739830 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = ACDED3791477485F00739830 /* AppDelegate.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		AC1C6FDB147748A700F9799F /* Icon-iPad.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-iPad.png"; sourceTree = "<group>"; };
+		AC1C6FDC147748A700F9799F /* Icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Icon.png; sourceTree = "<group>"; };
+		AC1C6FDD147748A700F9799F /* Icon@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon@2x.png"; sourceTree = "<group>"; };
+		AC1C6FDE147748A700F9799F /* iTunesArtwork */ = {isa = PBXFileReference; lastKnownFileType = file; path = iTunesArtwork; sourceTree = "<group>"; };
+		AC1C6FE6147748BD00F9799F /* ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		AC1C6FE7147748BD00F9799F /* ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		AC1C6FF11477498400F9799F /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = NICInfo/en.lproj/ViewController.xib; sourceTree = SOURCE_ROOT; };
+		AC8EF3CB188A099900240288 /* NICInfo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NICInfo.h; sourceTree = "<group>"; };
+		AC8EF3CC188A099900240288 /* NICInfo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NICInfo.m; sourceTree = "<group>"; };
+		AC8EF3CD188A099900240288 /* NICInfoSummary.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NICInfoSummary.h; sourceTree = "<group>"; };
+		AC8EF3CE188A099900240288 /* NICInfoSummary.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NICInfoSummary.m; sourceTree = "<group>"; };
+		AC8EF3D2188A368900240288 /* NICInfo.podspec */ = {isa = PBXFileReference; lastKnownFileType = text; name = NICInfo.podspec; path = ../../NICInfo.podspec; sourceTree = "<group>"; };
+		ACDED3651477485F00739830 /* NICInfo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NICInfo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		ACDED3691477485F00739830 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		ACDED36B1477485F00739830 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		ACDED36D1477485F00739830 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		ACDED3711477485F00739830 /* NICInfo-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "NICInfo-Info.plist"; sourceTree = "<group>"; };
+		ACDED3731477485F00739830 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		ACDED3751477485F00739830 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		ACDED3771477485F00739830 /* NICInfo-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NICInfo-Prefix.pch"; sourceTree = "<group>"; };
+		ACDED3781477485F00739830 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		ACDED3791477485F00739830 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		ACDED3621477485F00739830 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ACDED36A1477485F00739830 /* UIKit.framework in Frameworks */,
+				ACDED36C1477485F00739830 /* Foundation.framework in Frameworks */,
+				ACDED36E1477485F00739830 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		AC1C6FDA147748A700F9799F /* Resource */ = {
+			isa = PBXGroup;
+			children = (
+				AC1C6FF01477498400F9799F /* ViewController.xib */,
+				AC1C6FDB147748A700F9799F /* Icon-iPad.png */,
+				AC1C6FDC147748A700F9799F /* Icon.png */,
+				AC1C6FDD147748A700F9799F /* Icon@2x.png */,
+				AC1C6FDE147748A700F9799F /* iTunesArtwork */,
+			);
+			path = Resource;
+			sourceTree = "<group>";
+		};
+		AC8EF3CA188A099900240288 /* NICInfo Classes */ = {
+			isa = PBXGroup;
+			children = (
+				AC8EF3CB188A099900240288 /* NICInfo.h */,
+				AC8EF3CC188A099900240288 /* NICInfo.m */,
+				AC8EF3CD188A099900240288 /* NICInfoSummary.h */,
+				AC8EF3CE188A099900240288 /* NICInfoSummary.m */,
+			);
+			path = "NICInfo Classes";
+			sourceTree = "<group>";
+		};
+		ACDED35A1477485E00739830 = {
+			isa = PBXGroup;
+			children = (
+				AC8EF3D2188A368900240288 /* NICInfo.podspec */,
+				AC8EF3CA188A099900240288 /* NICInfo Classes */,
+				ACDED36F1477485F00739830 /* NICInfo */,
+				ACDED3681477485F00739830 /* Frameworks */,
+				ACDED3661477485F00739830 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		ACDED3661477485F00739830 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				ACDED3651477485F00739830 /* NICInfo.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		ACDED3681477485F00739830 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				ACDED3691477485F00739830 /* UIKit.framework */,
+				ACDED36B1477485F00739830 /* Foundation.framework */,
+				ACDED36D1477485F00739830 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		ACDED36F1477485F00739830 /* NICInfo */ = {
+			isa = PBXGroup;
+			children = (
+				ACDED3781477485F00739830 /* AppDelegate.h */,
+				ACDED3791477485F00739830 /* AppDelegate.m */,
+				AC1C6FE6147748BD00F9799F /* ViewController.h */,
+				AC1C6FE7147748BD00F9799F /* ViewController.m */,
+				ACDED3701477485F00739830 /* Supporting Files */,
+				AC1C6FDA147748A700F9799F /* Resource */,
+			);
+			path = NICInfo;
+			sourceTree = "<group>";
+		};
+		ACDED3701477485F00739830 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				ACDED3711477485F00739830 /* NICInfo-Info.plist */,
+				ACDED3721477485F00739830 /* InfoPlist.strings */,
+				ACDED3751477485F00739830 /* main.m */,
+				ACDED3771477485F00739830 /* NICInfo-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		ACDED3641477485F00739830 /* NICInfo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = ACDED37D1477485F00739830 /* Build configuration list for PBXNativeTarget "NICInfo" */;
+			buildPhases = (
+				ACDED3611477485F00739830 /* Sources */,
+				ACDED3621477485F00739830 /* Frameworks */,
+				ACDED3631477485F00739830 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = NICInfo;
+			productName = NICInfo;
+			productReference = ACDED3651477485F00739830 /* NICInfo.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		ACDED35C1477485E00739830 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0420;
+			};
+			buildConfigurationList = ACDED35F1477485E00739830 /* Build configuration list for PBXProject "NICInfo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = ACDED35A1477485E00739830;
+			productRefGroup = ACDED3661477485F00739830 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				ACDED3641477485F00739830 /* NICInfo */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		ACDED3631477485F00739830 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ACDED3741477485F00739830 /* InfoPlist.strings in Resources */,
+				AC1C6FDF147748A700F9799F /* Icon-iPad.png in Resources */,
+				AC1C6FE0147748A700F9799F /* Icon.png in Resources */,
+				AC1C6FE1147748A700F9799F /* Icon@2x.png in Resources */,
+				AC1C6FE2147748A700F9799F /* iTunesArtwork in Resources */,
+				AC1C6FF21477498400F9799F /* ViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		ACDED3611477485F00739830 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AC8EF3D0188A099900240288 /* NICInfoSummary.m in Sources */,
+				ACDED3761477485F00739830 /* main.m in Sources */,
+				ACDED37A1477485F00739830 /* AppDelegate.m in Sources */,
+				AC8EF3CF188A099900240288 /* NICInfo.m in Sources */,
+				AC1C6FE9147748BD00F9799F /* ViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		AC1C6FF01477498400F9799F /* ViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AC1C6FF11477498400F9799F /* en */,
+			);
+			name = ViewController.xib;
+			sourceTree = "<group>";
+		};
+		ACDED3721477485F00739830 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				ACDED3731477485F00739830 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		ACDED37B1477485F00739830 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = (
+					armv6,
+					"$(ARCHS_STANDARD_32_BIT)",
+				);
+				CLANG_ENABLE_OBJC_ARC = NO;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.2;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		ACDED37C1477485F00739830 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = (
+					armv6,
+					"$(ARCHS_STANDARD_32_BIT)",
+				);
+				CLANG_ENABLE_OBJC_ARC = NO;
+				CODE_SIGN_IDENTITY = "iPhone Distribution";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.2;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				PROVISIONING_PROFILE = "";
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		ACDED37E1477485F00739830 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "NICInfo/NICInfo-Prefix.pch";
+				INFOPLIST_FILE = "NICInfo/NICInfo-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		ACDED37F1477485F00739830 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "NICInfo/NICInfo-Prefix.pch";
+				INFOPLIST_FILE = "NICInfo/NICInfo-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		ACDED35F1477485E00739830 /* Build configuration list for PBXProject "NICInfo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ACDED37B1477485F00739830 /* Debug */,
+				ACDED37C1477485F00739830 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		ACDED37D1477485F00739830 /* Build configuration list for PBXNativeTarget "NICInfo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ACDED37E1477485F00739830 /* Debug */,
+				ACDED37F1477485F00739830 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = ACDED35C1477485E00739830 /* Project object */;
+}
